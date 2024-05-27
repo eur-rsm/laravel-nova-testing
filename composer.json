@@ -1,0 +1,15 @@
+{
+    "name": "eur-rsm/laravel-nova-testing",
+    "description": "Helper package for testing core laravel nova",
+    "type": "laravel-library",
+    "keywords": ["laravel","nova", "eur","rsm"],
+    "homepage": "https://github.com/eur-rsm/laravel-nova-testing",
+    "require": {
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EUR\\RSM\\LaravelNovaTesting\\": "src/"
+        }
+    }
+}
